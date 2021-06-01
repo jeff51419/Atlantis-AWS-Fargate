@@ -17,7 +17,7 @@ certificate_arn = "arn:aws:acm:ap-southeast-1:1111111111:certificate/aaaaaa-bbbb
 ecs_service_assign_public_ip = true
 
 atlantis_repo_allowlist = ["github.com/jeff51419/*"]
-atlantis_image = "jeff51419/atlantis-terragrunt:v1.2.0"
+atlantis_image = "jeff51419/atlantis-terragrunt:v1.3.0"
 atlantis_github_user = "jeff51419"
 atlantis_allowed_repo_names = ["terragrunt-repo"]
 trusted_principals = ["ssm.amazonaws.com"] # Convenient if you want to enable SSM access into Atlantis for troubleshooting etc
