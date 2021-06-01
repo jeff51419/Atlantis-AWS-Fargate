@@ -4,4 +4,3 @@ locals {
     Environment = "test"
   }
 }
-#
